@@ -1,0 +1,13 @@
+body{
+    background: #A3C9A8;
+}
+#calcularBtn:hover{
+    background-color: #78A1BB;
+}
+#resultado{
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+#resultado.mostrar {
+    opacity: 1;
+}
